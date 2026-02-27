@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Detailed college information, ratings, placements, infrastructure, and student reviews on CollegeJaano.">
+    <title>College Details — CollegeJaano</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">College<span>Jaano</span></a>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="colleges.html" class="active">Colleges</a>
+                <a href="add-review.html">Reviews</a>
+                <a href="login.html" class="btn-nav">Login</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="detail-hero">
+        <div class="container">
+            <div class="detail-hero-content">
+                <div class="detail-img"><img class="detail-main-img" src="" alt="College"></div>
+                <div class="detail-info">
+                    <h1 class="detail-name"></h1>
+                    <div class="location detail-location"></div>
+                    <div class="detail-rating">
+                        <div class="stars detail-stars"></div>
+                        <span class="detail-rating-num"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="detail-tabs">
+                <button class="active" data-tab="tab-overview">Overview</button>
+                <button data-tab="tab-placements">Placements</button>
+                <button data-tab="tab-infra">Infrastructure</button>
+                <button data-tab="tab-faculty">Faculty</button>
+                <button data-tab="tab-campus">Campus Life</button>
+                <button data-tab="tab-reviews">Reviews</button>
+            </div>
+
+            <div id="tab-overview" class="tab-content active">
+                <div class="review-card">
+                    <h3 style="margin-bottom:12px;">About this College</h3>
+                    <p class="detail-desc"></p>
+                </div>
+                <div class="stat-cards" style="margin-top:24px;">
+                    <div class="stat-card">
+                        <div class="stat-icon">💼</div>
+                        <h4>Placements</h4>
+                        <div class="stat-value">95%</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⭐</div>
+                        <h4>Rating</h4>
+                        <div class="stat-value detail-rating-num">4.8</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📝</div>
+                        <h4>Reviews</h4>
+                        <div class="stat-value">340+</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🏛️</div>
+                        <h4>Established</h4>
+                        <div class="stat-value">1961</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-placements" class="tab-content">
+                <div class="review-card">
+                    <h3 style="margin-bottom:12px;">📊 Placement Statistics</h3>
+                    <p class="stat-placements"></p>
+                </div>
+            </div>
+            <div id="tab-infra" class="tab-content">
+                <div class="review-card">
+                    <h3 style="margin-bottom:12px;">🏗️ Infrastructure</h3>
+                    <p class="stat-infra"></p>
+                </div>
+            </div>
+            <div id="tab-faculty" class="tab-content">
+                <div class="review-card">
+                    <h3 style="margin-bottom:12px;">👨‍🏫 Faculty</h3>
+                    <p class="stat-faculty"></p>
+                </div>
+            </div>
+            <div id="tab-campus" class="tab-content">
+                <div class="review-card">
+                    <h3 style="margin-bottom:12px;">🎉 Campus Life</h3>
+                    <p class="stat-campus"></p>
+                </div>
+            </div>
+
+            <div id="tab-reviews" class="tab-content">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+                    <h3>Student Reviews</h3>
+                    <a href="add-review.html" class="btn btn-primary btn-sm">+ Add Review</a>
+                </div>
+                <div id="college-reviews"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">College<span>Jaano</span></a>
+                    <p>Empowering students to make informed college decisions through authentic reviews.</p>
+                    <div class="social-links"><a href="#">𝕏</a><a href="#">📷</a><a href="#">in</a><a href="#">▶</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="colleges.html">Colleges</a></li>
+                        <li><a href="add-review.html">Write a Review</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Engineering</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Arts & Science</a></li>
+                        <li><a href="#">Medical</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:hello@collegejaano.com">hello@collegejaano.com</a></li>
+                        <li><a href="#">+91 98765 43210</a></li>
+                        <li><a href="#">New Delhi, India</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2026 CollegeJaano. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Login or sign up to CollegeJaano to write reviews, rate colleges, and connect with other students.">
+    <title>Login — CollegeJaano</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">College<span>Jaano</span></a>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="colleges.html">Colleges</a>
+                <a href="add-review.html">Reviews</a>
+                <a href="login.html" class="btn-nav active">Login</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Welcome Back</h1>
+            <p>Login or create an account to get started</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <!-- Login Form -->
+            <div class="form-container" id="login-form">
+                <h2>🔐 Login</h2>
+                <p class="subtitle">Access your CollegeJaano account</p>
+                <form class="auth-form">
+                    <div class="form-group">
+                        <label for="login-email">Email Address</label>
+                        <input type="email" id="login-email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+                <div class="or-divider">or continue with</div>
+                <button class="btn-social">🔵 Continue with Google</button>
+                <div class="auth-toggle">Don't have an account? <a href="#">Sign Up</a></div>
+            </div>
+
+            <!-- Signup Form -->
+            <div class="form-container" id="signup-form" style="display:none;">
+                <h2>🎓 Sign Up</h2>
+                <p class="subtitle">Create your CollegeJaano account</p>
+                <form class="auth-form">
+                    <div class="form-group">
+                        <label for="signup-name">Full Name</label>
+                        <input type="text" id="signup-name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email Address</label>
+                        <input type="email" id="signup-email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" placeholder="Create a password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-confirm">Confirm Password</label>
+                        <input type="password" id="signup-confirm" placeholder="Confirm your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+                </form>
+                <div class="or-divider">or continue with</div>
+                <button class="btn-social">🔵 Continue with Google</button>
+                <div class="auth-toggle">Already have an account? <a href="#">Login</a></div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">College<span>Jaano</span></a>
+                    <p>Empowering students to make informed college decisions through authentic reviews.</p>
+                    <div class="social-links"><a href="#">𝕏</a><a href="#">📷</a><a href="#">in</a><a href="#">▶</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="colleges.html">Colleges</a></li>
+                        <li><a href="add-review.html">Write a Review</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Engineering</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Arts & Science</a></li>
+                        <li><a href="#">Medical</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:hello@collegejaano.com">hello@collegejaano.com</a></li>
+                        <li><a href="#">+91 98765 43210</a></li>
+                        <li><a href="#">New Delhi, India</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2026 CollegeJaano. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
