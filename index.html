@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CollegeJaano - Find the best colleges with real student reviews. Compare ratings, placements, infrastructure and more.">
+  <title>CollegeJaano — Find Your Perfect College</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">College<span>Jaano</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="colleges.html">Colleges</a>
+        <a href="add-review.html">Reviews</a>
+        <a href="login.html" class="btn-nav">Login</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">🎓 Trusted by 50,000+ Students</div>
+        <h1>Find the Best Colleges with <span class="highlight">Real Student Reviews</span></h1>
+        <p>Make informed decisions with authentic reviews from current students and alumni. Compare colleges, explore campuses, and find your perfect fit.</p>
+        <div class="search-box">
+          <input type="text" id="hero-search" placeholder="Search colleges by name, location...">
+          <button>Search</button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><div class="stat-num">500+</div><div class="stat-label">Colleges</div></div>
+          <div class="stat"><div class="stat-num">15K+</div><div class="stat-label">Reviews</div></div>
+          <div class="stat"><div class="stat-num">50K+</div><div class="stat-label">Students</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Colleges -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Top Rated</span>
+        <h2>Featured Colleges</h2>
+        <p>Explore top-rated colleges as reviewed by real students</p>
+      </div>
+      <div class="college-grid" id="featured-colleges"></div>
+      <div style="text-align:center; margin-top:40px;">
+        <a href="colleges.html" class="btn btn-outline">View All Colleges →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it Works -->
+  <section class="section" style="background:#F1EDFC;">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">How It Works</span>
+        <h2>Your Journey to the Right College</h2>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:28px;">
+        <div style="text-align:center; padding:32px 24px;">
+          <div style="font-size:2.5rem; margin-bottom:16px;">🔍</div>
+          <h3 style="margin-bottom:8px;">Search & Explore</h3>
+          <p style="color:var(--text-light); font-size:0.9rem;">Browse through 500+ colleges and filter by your preferences</p>
+        </div>
+        <div style="text-align:center; padding:32px 24px;">
+          <div style="font-size:2.5rem; margin-bottom:16px;">⭐</div>
+          <h3 style="margin-bottom:8px;">Read Real Reviews</h3>
+          <p style="color:var(--text-light); font-size:0.9rem;">Get authentic insights from current students and alumni</p>
+        </div>
+        <div style="text-align:center; padding:32px 24px;">
+          <div style="font-size:2.5rem; margin-bottom:16px;">🎯</div>
+          <h3 style="margin-bottom:8px;">Make Your Choice</h3>
+          <p style="color:var(--text-light); font-size:0.9rem;">Compare and decide on the perfect college for your future</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">College<span>Jaano</span></a>
+          <p>Empowering students to make informed college decisions through authentic reviews and comprehensive insights.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="colleges.html">Colleges</a></li>
+            <li><a href="add-review.html">Write a Review</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Engineering</a></li>
+            <li><a href="#">Management</a></li>
+            <li><a href="#">Arts & Science</a></li>
+            <li><a href="#">Medical</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@collegejaano.com">hello@collegejaano.com</a></li>
+            <li><a href="#">+91 98765 43210</a></li>
+            <li><a href="#">New Delhi, India</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 CollegeJaano. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
